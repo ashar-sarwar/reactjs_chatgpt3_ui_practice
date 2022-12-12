@@ -1,0 +1,73 @@
+
+
+
+.gpt3__cta{
+   
+        padding: 3rem;
+        border-radius: 15px;
+        background:-moz-linear-gradient(334deg, rgba(117, 101, 53, 0.79) 0%, rgba(183, 83, 180, 0.83) 100%); 
+    
+        background:-webkit-linear-gradient(334deg, rgba(117, 101, 53, 0.79) 0%, rgba(183, 83, 180, 0.83) 100%);
+    
+      
+        background:-o-linear-gradient(334deg, rgba(117, 101, 53, 0.79) 0%, rgba(183, 83, 180, 0.83) 100%);
+    
+    
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#756535', endColorstr='#B753B4', GradientType=1 );
+    
+ 
+        background:-ms-linear-gradient(334deg, rgba(117, 101, 53, 0.79) 0%, rgba(183, 83, 180, 0.83) 100%);
+    
+
+        background:linear-gradient(334deg, rgba(117, 101, 53, 0.79) 0%, rgba(183, 83, 180, 0.83) 100%);
+    
+    }
+
+    .gpt3__cta-content{
+        flex:1;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .gpt3__cta-button button{
+        padding: 0.9rem 2rem;
+    color: #fff;
+    background: #111111;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 100px;
+    }
+
+    @media screen and (max-width: 650px) {
+        .gpt3__cta {
+            flex-direction: column;
+        }
+    
+        .gpt3__cta-button {
+            margin: 2rem 0 0;
+        }
+    }
+    
+    @media screen and (max-width: 550px) {
+        .gpt3__cta {
+            flex-direction: column;
+            margin: 4rem 2rem;
+        }
+    
+        .gpt3__cta-content h3 {
+            font-size: 18px;
+            line-height: 32px;
+        }
+    
+        .gpt3__cta-button button {
+            font-size: 14px;
+            line-height: 28px;
+        }
+    }
